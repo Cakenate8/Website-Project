@@ -1,5 +1,5 @@
 let faction = 3;
-switch (faction) {
+switch (player.faction) {
     case 1:
         console.log("Space Marines");
         break;
@@ -37,7 +37,8 @@ let age = 20
 
 if (age > 16) {
     console.log("You cannot play in this event.");
-  } else {
+} 
+else {
     console.log("You can play in this event.");
 }
 // This is to make we are following are age requirement rules
